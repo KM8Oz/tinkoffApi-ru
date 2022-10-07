@@ -3,14 +3,14 @@
 <h1 id="top" align="center">TinkoffPay-rs</h1>
 
 <div style="display:flex;flex-direction:row;gap:5px; width:100%;justify-content:center;">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/KM8Oz/TinkoffPay-rs?color=56BEB8">
+  <img alt="Github top language" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/languages/top/KM8Oz/TinkoffPay-rs?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/KM8Oz/tinkoffpay-rs?color=56BEB8">
+  <img alt="Github language count" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/languages/count/KM8Oz/tinkoffpay-rs?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KM8Oz/tinkoffpay-rs?color=56BEB8">
+  <img alt="Repository size" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/repo-size/KM8Oz/tinkoffpay-rs?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/KM8Oz/tinkoffpay-rs?color=56BEB8">
-    ![Crates.io](https://img.shields.io/crates/v/tinkoffpay?color=56BEB8&label=tinkoffpay)
+  <img alt="License" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/license/KM8Oz/tinkoffpay-rs?color=56BEB8">
+  <img alt="Crates.io" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/crates/v/tinkoffpay?color=56BEB8&label=tinkoffpay">
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
