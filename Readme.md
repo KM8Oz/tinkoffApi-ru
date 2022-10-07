@@ -2,7 +2,7 @@
 
 <h1 id="top" align="center">TinkoffPay-rs</h1>
 
-<div style="display:flex;flex-direction:row;gap:5px; width:100%;justify-content:center;">
+<div align="center" style="display:flex;flex-direction:row;gap:5px; width:100%;justify-content:center;">
   <img alt="Github top language" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/languages/top/KM8Oz/TinkoffPay-rs?color=56BEB8">
 
   <img alt="Github language count" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/languages/count/KM8Oz/tinkoffpay-rs?color=56BEB8">
