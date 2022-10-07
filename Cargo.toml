@@ -1,7 +1,8 @@
 [package]
 name = "tinkoffpay"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
+homepage = "https://km8oz.github.io/tinkoffpay-rs"
 license = "Apache-2.0"
 repository = "https://github.com/KM8Oz/tinkoffpay-rs.git"
 license-file = "LICENCE.md"
