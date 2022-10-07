@@ -1,7 +1,8 @@
 
 
-<h1 align="center">TinkoffPay-rs</h1>
+<h1 id="top" align="center">TinkoffPay-rs</h1>
 
+<div style="display:flex;flex-direction:row;gap:5px; width:100%;justify-content:center;">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/KM8Oz/TinkoffPay-rs?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/KM8Oz/tinkoffpay-rs?color=56BEB8">
@@ -15,7 +16,7 @@
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
-</p>
+</div>
 
 <!-- Status -->
 
@@ -25,7 +26,7 @@
 
 <hr> -->
 
-<p align="center">
+<p align="center" >
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
@@ -121,8 +122,7 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 
 Made with :heart: by <a href="https://github.com/KM8Oz" target="_blank">@KM8Oz</a>
 &#xa0;
-&#xa0;
-<div align="center" id="top"> 
+<div align="center" > 
   <img src="./Screen-Shot.png" alt="TinkoffPay-rs" />
 
   &#xa0;
