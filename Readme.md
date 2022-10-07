@@ -10,7 +10,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/KM8Oz/tinkoffpay-rs?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/KM8Oz/tinkoffpay-rs?color=56BEB8">
-
+    ![Crates.io](https://img.shields.io/crates/v/tinkoffpay?color=56BEB8&label=tinkoffpay)
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/KM8Oz/tinkoffpay-rs?color=56BEB8" /> -->
@@ -28,7 +28,7 @@
 
 <p align="center" >
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <!-- <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; -->
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -74,6 +74,7 @@ $ cargo test request_demo_url -- --nocapture
 ## :checkered_flag: Usage ##
 
 ```rust
+    use crate::{Payments, Receipt, Taxation, TaxNDK};
 // should be an async fn 
     let payment_url = Payments::default()
         .build(
@@ -92,14 +93,14 @@ $ cargo test request_demo_url -- --nocapture
                 Taxation::OSN
             )
             .add_item(
-                "Наименование товара 1", 
-                1, 
+                "Наименование товара 1", // name
+                1, // quantity
                 100, // in ruble
                 TaxNDK::None
             )
             .add_item(
-                "Наименование товара 2", 
-                2, 
+                "Наименование товара 2", // name
+                2, // quantity
                 200, // in ruble
                 TaxNDK::None
             )
@@ -117,7 +118,7 @@ $ cargo test request_demo_url -- --nocapture
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENCE.md) file.
 
 
 Made with :heart: by <a href="https://github.com/KM8Oz" target="_blank">@KM8Oz</a>
