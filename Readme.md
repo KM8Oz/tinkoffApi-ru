@@ -1,7 +1,9 @@
 
 
 <h1 id="top" align="center">TinkoffPay-rs</h1>
-
+<p id="top" color="#343434" align="center">⭐️ <font color="#F7C815">Leave me a start please</font> ⭐️</p>
+<p id="top" align="center">
+<font color="#F7C815">it will motivate me to continue maintaining and adding futures</font></p>
 <div align="center" style="display:flex;flex-direction:row;gap:5px; width:100%;justify-content:center;">
   <img alt="Github top language" href="https://crates.io/crates/tinkoffpay" src="https://img.shields.io/github/languages/top/KM8Oz/TinkoffPay-rs?color=56BEB8">
 
