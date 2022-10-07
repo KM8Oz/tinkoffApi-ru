@@ -38,22 +38,22 @@
 
 <br>
 
-## :dart: About ##
+## 🎯 About ##
 
 Simple tinkoff integration (the seller receives a link to the payment form and redirect the buyer to it); NB: with callback method
 
-## :rocket: Technologies ##
+## 🚀 Technologies ##
 
 The following tools were used in this project:
 
 - [rust](https://www.rust-lang.org/)
 - [crago](https://crates.io/)
 
-## :white_check_mark: Requirements ##
+## ✅ Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Rust](https://www.rust-lang.org/) installed.
 
-## :checkered_flag: Starting ##
+## 🏁 Starting ##
 
 ```bash
 # Clone this project
@@ -71,7 +71,7 @@ $ cargo test request_demo_url -- --nocapture
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## :checkered_flag: Usage ##
+## ✅ Usage ##
 
 ```rust
     use crate::{Payments, Receipt, Taxation, TaxNDK};
@@ -116,7 +116,7 @@ $ cargo test request_demo_url -- --nocapture
         }
 ```
 
-## :memo: License ##
+## 📝 License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENCE.md) file.
 
