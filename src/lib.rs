@@ -256,7 +256,7 @@ impl Payment {
 }
 impl Payments {
     pub fn build(&self, terminal_key: &str, callback_url: &str,  orderid: &str, description: &str) -> Payment {
-        let SuccessFailURL =  format!("{}?order_id=", callback_url.to_string());
+        let SuccessFailURL =  format!("{}?order_id={}", callback_url.to_string(), orderid);
         Payment {
             orderid: orderid.to_string(),
             description: description.to_string(),

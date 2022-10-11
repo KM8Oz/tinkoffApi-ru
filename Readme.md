@@ -82,7 +82,22 @@ $ cargo test request_demo_url -- --nocapture
     let payment_url = Payments::default()
         .build(
             "TinkoffBankTest",
-            "https://bulkus.ru/pay_back",
+            "https://bulkus.ru/pay_back", 
+            //  Success or Fail URL (GET) =  [your callback url]?order_id=[orderid]
+            //  payment catch url (POST) has those params:
+            //           Json(Object {
+            //          "Amount": Number(10000),
+            //          "CardId": Number(130550983),
+            //          "ErrorCode": String("0"),
+            //          "ExpDate": String("1122"),
+            //          "OrderId": String("278600"),
+            //          "Pan": String("430000******0777"),
+            //          "PaymentId": Number(1866123460),
+            //          "Status": String("CONFIRMED"),
+            //          "Success": Bool(true),
+            //          "TerminalKey": String("1639044907391DEMO"),
+            //          "Token": String("711cd4fa0df2afa8a69a56884e9d902eb882c9a01af56498fc6bfdefaf9eef8d")
+            //          })
             "210950", 
             "Подарочная карта на 1400.00 рублей")
         .set_amount(500) // in ruble
@@ -117,6 +132,7 @@ $ cargo test request_demo_url -- --nocapture
                 println!("payment error: {:?}", err);
             }
         }
+
 ```
 
 ## 📝 License ##
