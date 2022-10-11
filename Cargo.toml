@@ -1,6 +1,6 @@
 [package]
 name = "tinkoffpay"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 homepage = "https://km8oz.github.io/tinkoffpay-rs"
 license = "Apache-2.0"
@@ -10,9 +10,6 @@ keywords = ["tinkoff", "acquiring", "api", "bank", "opensource"]
 description = "Simple tinkoff integration (the seller receives a link to the payment form and redirect the buyer to it); NB: with callback method"
 readme = "README.md"
 
-[dependencies.reqwest]
-version = "0.11.11"
-features = ["json"]
 [dependencies.serde]
 version = "1.0"
 features = ["derive"]
